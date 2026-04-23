@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.encryption</groupId>
+        <artifactId>CyberSecurity</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>app</artifactId>
+
+    <dependencies>
+
+        <!-- monoalphabetic -->
+        <dependency>
+            <groupId>com.encryption</groupId>
+            <artifactId>monoalphabetic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- polyalphabetic -->
+        <dependency>
+            <groupId>com.encryption</groupId>
+            <artifactId>polyalphabetic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- polygraphic -->
+        <dependency>
+            <groupId>com.encryption</groupId>
+            <artifactId>polygraphic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- transpositional -->
+        <dependency>
+            <groupId>com.encryption</groupId>
+            <artifactId>transpositional</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.1.0</version>
+        </plugin>
+    </plugins>
+</build>
+</project>
