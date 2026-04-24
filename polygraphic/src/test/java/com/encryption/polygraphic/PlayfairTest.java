@@ -6,7 +6,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
 public class PlayfairTest {
-
+    
     // setUp
     @BeforeEach
     void setUp() {
