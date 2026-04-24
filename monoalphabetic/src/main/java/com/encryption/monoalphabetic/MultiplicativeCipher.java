@@ -45,7 +45,7 @@ public class MultiplicativeCipher {
         if (!isValidKey(key)) {
             throw new IllegalArgumentException("Key must be coprime with 26");
         }
-        
+
         int inverse = modInverse(key);
         ciphertext = ciphertext.toUpperCase().replaceAll("[^A-Z]", "");
         StringBuilder result = new StringBuilder();
@@ -55,7 +55,7 @@ public class MultiplicativeCipher {
             char p = (char) ((c * inverse) % MOD + 'A');
             result.append(p);
         }
-
+        
         return result.toString();
     }
 }

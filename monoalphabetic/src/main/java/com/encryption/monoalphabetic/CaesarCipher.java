@@ -21,7 +21,6 @@ public class CaesarCipher {
                 result.append(ch);
             }
         }
-
         return result.toString();
     }
 

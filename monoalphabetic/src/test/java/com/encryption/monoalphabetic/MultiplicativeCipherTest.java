@@ -9,7 +9,7 @@ public class MultiplicativeCipherTest {
     void testEncryptionBasic() {
         String plaintext = "HELLO";
         int key = 5;
-
+        
         String result = MultiplicativeCipher.encrypt(plaintext, key);
 
         assertAll("Encryption checks",
