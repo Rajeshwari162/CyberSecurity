@@ -1,5 +1,0 @@
-# Created at 2026-04-24T00:12:54.186
-Boot Manifest-JAR contains absolute paths in classpath 'D:\security\CyberSecurity\polygraphic\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

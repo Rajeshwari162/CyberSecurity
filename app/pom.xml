@@ -39,8 +39,10 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-    </dependencies>
+        </dependencies>
 
+    <profiles/>
+    
     <build>
     <plugins>
         <plugin>
