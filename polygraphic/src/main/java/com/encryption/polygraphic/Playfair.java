@@ -9,7 +9,7 @@ public class Playfair {
     public Playfair(String key) {
         generateMatrix(key);
     }
-
+    
     private void generateMatrix(String key) {
         key = key.toUpperCase().replaceAll("[^A-Z]", "").replace("J", "I");
 
